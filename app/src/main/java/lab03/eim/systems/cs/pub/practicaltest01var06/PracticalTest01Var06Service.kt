@@ -27,3 +27,7 @@ class PracticalTest01Var06Service : Service() {
                 }
                 sendBroadcast(broadcastIntent)
             }, 2000)
+        }
+        return START_REDELIVER_INTENT
+    }
+}
